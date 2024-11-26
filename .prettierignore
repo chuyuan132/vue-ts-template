@@ -1,0 +1,11 @@
+build
+.cache
+*.html
+*.yml
+*.yaml
+*.md
+node_modules
+dist
+.vscode/*
+.idea/*
+.git/*
