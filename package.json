@@ -25,7 +25,7 @@
   },
   "lint-staged": {
     "**/*.{js,mjs,cjs,ts,json,vue}": "eslint . --fix",
-    "**/*.{css,less,scss}": "stylelint **/*.{vue,css,scss,less} --fix"
+    "**/*.{vue,css,less,scss}": "stylelint --fix"
   },
   "dependencies": {
     "axios": "^1.7.8",
